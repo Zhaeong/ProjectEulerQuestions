@@ -1,2 +1,9 @@
 //Compile single file
 g++ -o runn Problem1.cpp 
+
+
+//includes
+//note u can include via .h files, those don't need to be compiled
+g++ -c foo.cpp
+g++ -c bar.cpp
+g++ foo.o bar.o -o theMainExecutable
