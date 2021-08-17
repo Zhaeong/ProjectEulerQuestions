@@ -1,9 +1,11 @@
 //Compile single file
 g++ -o runn Problem1.cpp 
-
+g++ -c .\Problem54.cpp;  g++ Problem54.o -o runn; .\runn.exe
 
 //includes
 //note u can include via .h files, those don't need to be compiled
 g++ -c foo.cpp
 g++ -c bar.cpp
 g++ foo.o bar.o -o theMainExecutable
+
+g++ -c .\Problem51.cpp; g++ -c .\PrimeTest.cpp; g++ PrimeTest.o Problem51.o -o runn; .\runn.exe
